@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: hsl(0deg, 0%, 95%);
+  min-height: 100vh;
+  padding: 2rem 0rem;
+}
+
+.card {
+  border-radius: 10px 10px 10px 10px;
+}
+.card-car {
+  padding: 1rem 4rem 1rem 3rem;
+  width: 17rem;
+}
+.card--img {
+  padding: 1rem 0;
+}
+.card--tittle {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family: "Big Shoulders Display", cursive;
+  padding-bottom: 1rem;
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+.card--text {
+  text-align: left;
+  line-height: 1.5rem;
+  padding-bottom: 1rem;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.8rem;
+}
+.card--button {
+  padding: 0.8rem 0 1.2rem 0rem;
+}
+.card--button button {
+  padding: 0.6rem 0.6rem;
+  border-radius: 3.125rem;
+  max-width: 100%;
+  width: 120px;
+  border: 2px solid transparent;
+}
+.card--button button:hover {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+.card--button .sedan-button {
+  color: hsl(31deg, 77%, 52%);
+}
+.card--button .suvs-button {
+  color: hsl(184deg, 100%, 22%);
+}
+.card--button .luxury-button {
+  color: hsl(179deg, 100%, 13%);
+}
+
+.sedans {
+  background-color: hsl(31deg, 77%, 52%);
+  border-radius: 5px 5px 0 0;
+}
+
+.suvs {
+  background-color: hsl(184deg, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179deg, 100%, 13%);
+  border-radius: 0 0 5px 5px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+@media (min-width: 1440px) {
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sedans {
+    background-color: hsl(31deg, 77%, 52%);
+    border-radius: 5px 0 0 5px;
+  }
+  .suvs {
+    background-color: hsl(184deg, 100%, 22%);
+  }
+  .luxury {
+    background-color: hsl(179deg, 100%, 13%);
+    border-radius: 0 5px 5px 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
