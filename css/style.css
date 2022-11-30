@@ -22,7 +22,7 @@ body {
   border-radius: 10px 10px 10px 10px;
 }
 .card-car {
-  padding: 1rem 4rem 1rem 3rem;
+  padding: 2rem 4rem 2rem 3rem;
   width: 17rem;
 }
 .card--img {
@@ -44,30 +44,51 @@ body {
   font-size: 0.8rem;
 }
 .card--button {
-  padding: 0.8rem 0 1.2rem 0rem;
-}
-.card--button button {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.8rem;
+  border: 2px solid transparent;
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+  width: 7rem;
+  display: block;
+  border-radius: 20px;
+  text-align: center;
+  background-color: hsl(0deg, 0%, 95%);
+  /*     padding: 0.8rem 0 1.2rem 0rem;
+  */ /* & button {
   padding: 0.6rem 0.6rem;
   border-radius: 3.125rem;
   max-width: 100%;
   width: 120px;
   border: 2px solid transparent;
+}*/
 }
-.card--button button:hover {
+.card--button:hover {
   background-color: transparent;
   color: white;
   border-color: white;
 }
-.card--button .sedan-button {
+
+.sedan--button {
   color: hsl(31deg, 77%, 52%);
 }
-.card--button .suvs-button {
+
+.suvs--button {
   color: hsl(184deg, 100%, 22%);
 }
-.card--button .luxury-button {
+
+.luxury--button {
   color: hsl(179deg, 100%, 13%);
 }
 
+/* .luxury--button{
+  border: 1px solid transparent;
+  background: white;
+  text-decoration: none;
+  border-radius: 50px;
+  width: 120px;
+}
+ */
 .sedans {
   background-color: hsl(31deg, 77%, 52%);
   border-radius: 5px 5px 0 0;
@@ -91,7 +112,7 @@ body {
   color: hsl(228deg, 45%, 44%);
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
   .card {
     display: flex;
     justify-content: center;
